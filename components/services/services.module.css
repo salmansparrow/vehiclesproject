@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.servicesimg{
+
+
+width: 570px;
+height: 438px;
+border-radius: 10px;
+
+margin-top: 26px;
+}
+
+
+.accordingheading{
+    /* Fleet Management */
+
+
+width: 231px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 150%;
+/* identical to box height, or 42px */
+
+color: #000333;
+
+text-wrap: nowrap;
+
+
+}
+
+.accordingheading1{
+/* Service & Maintenance */
+
+
+width: 283px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 150%;
+/* identical to box height, or 42px */
+
+color: #000333;
+text-wrap: nowrap;
+
+
+
+}
+
+@media (max-width: 767px) {
+  .accordingheading1, .accordingheading {
+    font-size: 22px; /* Adjust the font size for smaller screens */
+  }
+}
+
+.accordinghead{
+    /* Our core services */
+
+width: 291px;
+height: 41px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 41px;
+
+color: #000333;
+
+
+}
+
+.rectangle {
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 60px rgba(69, 93, 123, 0.1);
+    border-radius: 10px; /* You can adjust the radius value according to your preference */
+    overflow: hidden; /* Ensure content inside the rectangle doesn't overflow */
+
+
+}
+
+
+/* Remove the accordion button icon */
+.btn{
+    background-color: transparent !important;
+  color: white; /* Set the desired color for the non-active state */
+}
+
+/* Remove the accordion button icon */
+.btn::after{
+    content: none !important;
+}
+
+/* Remove the box shadow on the active accordion items */
+.btn:not(.collapsed):focus {
+    box-shadow: none !important;
+  }
+
+
+  .para{
+    font-family: "Inter";
+  }
+
