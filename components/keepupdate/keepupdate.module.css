@@ -1,0 +1,42 @@
+.keepheading{
+    /* Keep up-to-date */
+
+width: 400px;
+height: 46px;
+left: 116px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+color: #000333;
+}
+
+.keeppara{
+    /* Don’t miss out on the latest news, content and deals from PVS Group */
+
+width: 585px;
+height: 30px;
+left: 118px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #444444;
+
+
+}
+
+.keepimg{
+
+filter: drop-shadow(0px 20px 40px rgba(0, 3, 51, 0.2));
+border-radius: 10px;
+
+}
