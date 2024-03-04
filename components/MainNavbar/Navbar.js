@@ -1,11 +1,13 @@
 import { Button, Col, Container, Row } from "reactstrap";
 import classes from "./navbar.module.css"
 // import NavbarLogo from "./navbarlogo"
-import Link from "next/link";
+import Link from "next/link";  // Import Link from next/link
 import navbarlogo from "@/components/icons/navbarlogo.svg"
 import Image from "next/image";
 import navRect from "@/public/images/navRect.png"
 import navVechImage from "@/public/images/navVecimage.png"
+
+
 
 function MainNavbar(){
 
@@ -20,15 +22,19 @@ function MainNavbar(){
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul className="navbar-nav me-lg-5 ms-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav me-lg-5 ms-auto mb-2 mb-lg-0" >
         <li className="nav-item">
-          <a className="nav-link active me-5" aria-current="page" href="#">Fleet management</a>
+          <a className="nav-link active me-5" aria-current="page" href="/" style={{color: "black"}}>Fleet management</a>
+        </li>
+        <li className="nav-item" >
+
+        <Link className="nav-link me-5" href={"/Myservices/Ourservices"} style={{color: "black"}}>
+          Our services
+          </Link>
+        
         </li>
         <li className="nav-item">
-          <a className="nav-link me-5" href="#">Our services</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link me-5" href="#">About us</a>
+          <a className="nav-link me-5" href="#" style={{color: "black"}}>About us</a>
         </li>
 
         <li className="nav-item">
